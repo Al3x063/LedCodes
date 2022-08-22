@@ -24,7 +24,7 @@ def print_led(a,b,c,d,e,f,g,h,i,j):
   ledj.value(j)
   pausam(50)
   
-while False:
+while True:
   print_led(0,0,0,0,0,0,0,0,0,1)
   print_led(0,0,0,0,0,0,0,0,1,0)
   print_led(0,0,0,0,0,0,0,1,0,0)

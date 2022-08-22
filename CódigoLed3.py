@@ -14,16 +14,16 @@ led10= Pin(22,Pin.OUT)
 leds = [led1,led2,led3,led4,led5,led6,led7,led8,led9,led10]
 
 def ida():
-  for elemento in leds:
-      elemento.value(1)
+  for i in leds:
+      i.value(1)
       sleep_ms(50)
-      elemento.value(0)
+      i.value(0)
       sleep(0.05)
 def regreso():
-  for elemento in reversed(leds):
-      elemento.value(1)
+  for i in reversed(leds):
+      i.value(1)
       sleep(0.05)
-      elemento.value(0)
+      i.value(0)
       sleep(0.05)
 while True:
     ida()
